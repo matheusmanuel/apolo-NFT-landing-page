@@ -332,12 +332,12 @@ main .main-text .estatisticas div p {
 /* live auction */
 .live-auction {
     position: relative;
-    background-color: red;
 }
 
 .live-auction .img-live-auction {
     margin-left: 0;
-    animation: live-auction-animation 4s ease infinite alternate-reverse forwards;
+    width: 100%;
+    /* animation: live-auction-animation 4s ease infinite alternate-reverse forwards; */
 }
 
 @keyframes live-auction-animation {
